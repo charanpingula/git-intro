@@ -1,0 +1,27 @@
+Git is a version control system used to track changes in your code.
+It helps multiple people work on the same project without overwriting each other’s work.
+COMMON GIT TERMS:
+Term	Meaning
+Repository (repo)	A folder where your project files and their version history are stored.
+Commit	A snapshot of your project’s changes.
+Branch	A separate line of development.
+Merge	Combining changes from one branch into another.
+Clone	Copying a remote repository to your local computer.
+Push	Sending your local commits to a remote repository (like GitHub).
+Pull	Fetching and merging changes from a remote repository to your local one.
+Remote	A link to a repository hosted elsewhere (e.g., on GitHub).
+
+BASIC COMMANDS:
+Command    	          Description
+git init	          Initialize a new Git repository.
+git clone <url>	          Copy (clone) a remote repository to your local system.
+git status	          Show current changes and tracked files.
+git add <file>	          Add a file to the staging area.
+git commit -m             "message"	Save (commit) your changes with a message.
+git log	                  Show the history of commits.
+git branch	          List branches in your repo.
+git checkout <branch>	  Switch to a different branch.
+git merge <branch>	  Merge another branch into your current one.
+git push	          Upload local commits to the remote repo.
+git pull	          Download and merge updates from remote repo.
+
